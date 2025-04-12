@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "76a3647e-7431-446d-b90b-ef6db1f038f8")
 	(paper "A4")
+	(title_block
+		(title "Argus Deployables")
+		(date "2025-03-24")
+		(rev "v2.2")
+		(company "Carnegie Mellon University")
+		(comment 1 "N. Khera")
+		(comment 2 "V. Rajesh")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic_MountingPin:Conn_01x10_MountingPin"
 			(pin_names
@@ -880,158 +888,158 @@
 		)
 	)
 	(junction
-		(at 66.04 49.53)
+		(at 82.55 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1313dbe0-bcdf-4faa-a2a1-3857e5a54e7e")
 	)
 	(junction
-		(at 78.74 92.71)
+		(at 95.25 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15587c74-72ad-49a0-a53b-7816270b9cf4")
 	)
 	(junction
-		(at 91.44 55.88)
+		(at 107.95 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ed84c1e-c74b-4076-9370-8fb11c9b4d97")
 	)
 	(junction
-		(at 66.04 55.88)
+		(at 82.55 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c4614a6-4204-40da-9e2d-2651aac345f9")
 	)
 	(junction
-		(at 78.74 55.88)
+		(at 95.25 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "301fcf16-08f4-452b-86eb-a6c33baca101")
 	)
 	(junction
-		(at 182.88 68.58)
+		(at 199.39 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ded5fe2-1e76-4a9a-a0f1-56a87f02b044")
 	)
 	(junction
-		(at 182.88 76.2)
+		(at 199.39 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fe31309-d9d7-45a5-be7f-d4c8f1266b4b")
 	)
 	(junction
-		(at 53.34 55.88)
+		(at 69.85 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ab8baa8-bd2e-435b-aecc-de13af230134")
 	)
 	(junction
-		(at 116.84 92.71)
+		(at 133.35 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61d8465c-5cee-4d0d-ba0c-bff1976eced1")
 	)
 	(junction
-		(at 53.34 99.06)
+		(at 69.85 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "692c44a1-02c4-481c-bd37-f7dd9a15472b")
 	)
 	(junction
-		(at 66.04 92.71)
+		(at 82.55 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c7d3bf1-f3a7-4de3-96be-c722f7a4b099")
 	)
 	(junction
-		(at 182.88 63.5)
+		(at 199.39 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89803d0c-3610-4973-a526-1a7205f93048")
 	)
 	(junction
-		(at 78.74 49.53)
+		(at 95.25 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ad989e1-cb4a-40d1-aebc-33ee33625fb8")
 	)
 	(junction
-		(at 78.74 99.06)
+		(at 95.25 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ed79e34-a81b-4587-aa7a-79e7a5ee6479")
 	)
 	(junction
-		(at 104.14 49.53)
+		(at 120.65 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1e304ea-6147-4af3-9498-c798e14c28cd")
 	)
 	(junction
-		(at 182.88 58.42)
+		(at 199.39 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a89ef70c-4550-462c-8166-96c875b8401b")
 	)
 	(junction
-		(at 91.44 99.06)
+		(at 107.95 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9d9e4f7-540e-4eb8-a663-3a6dc146a76c")
 	)
 	(junction
-		(at 66.04 99.06)
+		(at 82.55 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5329de9-79b0-43f1-a0a8-4746b8277f6e")
 	)
 	(junction
-		(at 116.84 49.53)
+		(at 133.35 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d197a40c-17ed-4d63-bd6c-f3e670c952df")
 	)
 	(junction
-		(at 104.14 99.06)
+		(at 120.65 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d41c3555-6068-477f-bb4b-937bfb2bc3d1")
 	)
 	(junction
-		(at 182.88 66.04)
+		(at 199.39 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5a13800-2deb-4675-8275-381a932c4bbd")
 	)
 	(junction
-		(at 104.14 92.71)
+		(at 120.65 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8ad04a2-e470-407f-b93f-e7c2dc3f7a3f")
 	)
 	(junction
-		(at 91.44 49.53)
+		(at 107.95 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8cef250-4a58-4509-a5ba-f0b87a47896a")
 	)
 	(junction
-		(at 91.44 92.71)
+		(at 107.95 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f615cf02-39ed-415b-a314-0de418249399")
 	)
 	(junction
-		(at 104.14 55.88)
+		(at 120.65 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe4c73d7-0d4c-4eae-b9e1-590baf46df31")
 	)
 	(wire
 		(pts
-			(xy 66.04 49.53) (xy 69.85 49.53)
+			(xy 82.55 76.2) (xy 86.36 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1041,7 +1049,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 92.71) (xy 104.14 99.06)
+			(xy 120.65 119.38) (xy 120.65 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1051,7 +1059,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 58.42) (xy 182.88 60.96)
+			(xy 199.39 85.09) (xy 199.39 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1061,7 +1069,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 76.2) (xy 182.88 78.74)
+			(xy 199.39 102.87) (xy 199.39 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1071,7 +1079,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 49.53) (xy 104.14 55.88)
+			(xy 120.65 76.2) (xy 120.65 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1081,7 +1089,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 92.71) (xy 116.84 99.06)
+			(xy 133.35 119.38) (xy 133.35 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1091,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 92.71) (xy 82.55 92.71)
+			(xy 95.25 119.38) (xy 99.06 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1101,7 +1109,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 88.9 99.06)
+			(xy 107.95 125.73) (xy 105.41 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1111,7 +1119,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 99.06) (xy 78.74 92.71)
+			(xy 95.25 125.73) (xy 95.25 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1121,7 +1129,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 92.71) (xy 116.84 92.71)
+			(xy 129.54 119.38) (xy 133.35 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1131,7 +1139,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 58.42) (xy 186.69 58.42)
+			(xy 199.39 85.09) (xy 203.2 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1141,7 +1149,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 66.04) (xy 182.88 68.58)
+			(xy 199.39 92.71) (xy 199.39 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1151,7 +1159,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 49.53) (xy 82.55 49.53)
+			(xy 95.25 76.2) (xy 99.06 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1161,7 +1169,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 92.71) (xy 121.92 92.71)
+			(xy 133.35 119.38) (xy 138.43 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1171,7 +1179,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 92.71) (xy 95.25 92.71)
+			(xy 107.95 119.38) (xy 111.76 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1181,7 +1189,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 49.53) (xy 78.74 49.53)
+			(xy 91.44 76.2) (xy 95.25 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1191,7 +1199,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 99.06) (xy 81.28 99.06)
+			(xy 95.25 125.73) (xy 97.79 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1201,7 +1209,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 99.06) (xy 53.34 105.41)
+			(xy 69.85 125.73) (xy 69.85 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1211,7 +1219,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 55.88) (xy 104.14 55.88)
+			(xy 118.11 82.55) (xy 120.65 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1221,7 +1229,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 49.53) (xy 91.44 55.88)
+			(xy 107.95 76.2) (xy 107.95 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1231,7 +1239,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 104.14 49.53)
+			(xy 116.84 76.2) (xy 120.65 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1241,7 +1249,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 49.53) (xy 121.92 49.53)
+			(xy 133.35 76.2) (xy 138.43 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1251,7 +1259,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 49.53) (xy 53.34 55.88)
+			(xy 69.85 76.2) (xy 69.85 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1261,7 +1269,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 99.06) (xy 63.5 99.06)
+			(xy 82.55 125.73) (xy 80.01 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1271,7 +1279,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 92.71) (xy 53.34 99.06)
+			(xy 69.85 119.38) (xy 69.85 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1281,7 +1289,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 55.88) (xy 78.74 55.88)
+			(xy 92.71 82.55) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1291,7 +1299,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 49.53) (xy 116.84 49.53)
+			(xy 129.54 76.2) (xy 133.35 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1301,7 +1309,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 92.71) (xy 107.95 92.71)
+			(xy 120.65 119.38) (xy 124.46 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1311,7 +1319,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 92.71) (xy 69.85 92.71)
+			(xy 82.55 119.38) (xy 86.36 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1321,7 +1329,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 92.71) (xy 66.04 92.71)
+			(xy 78.74 119.38) (xy 82.55 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1331,7 +1339,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 99.06) (xy 78.74 99.06)
+			(xy 92.71 125.73) (xy 95.25 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1341,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 49.53) (xy 57.15 49.53)
+			(xy 69.85 76.2) (xy 73.66 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1351,7 +1359,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 55.88) (xy 53.34 62.23)
+			(xy 69.85 82.55) (xy 69.85 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1361,7 +1369,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 49.53) (xy 95.25 49.53)
+			(xy 107.95 76.2) (xy 111.76 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1371,7 +1379,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 49.53) (xy 91.44 49.53)
+			(xy 104.14 76.2) (xy 107.95 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1381,7 +1389,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 68.58) (xy 182.88 71.12)
+			(xy 199.39 95.25) (xy 199.39 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1391,7 +1399,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 92.71) (xy 66.04 99.06)
+			(xy 82.55 119.38) (xy 82.55 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1401,7 +1409,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 92.71) (xy 104.14 92.71)
+			(xy 116.84 119.38) (xy 120.65 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1411,7 +1419,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 55.88) (xy 106.68 55.88)
+			(xy 120.65 82.55) (xy 123.19 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1421,7 +1429,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 76.2) (xy 182.88 73.66)
+			(xy 199.39 102.87) (xy 199.39 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1431,7 +1439,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 99.06) (xy 106.68 99.06)
+			(xy 120.65 125.73) (xy 123.19 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1441,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 92.71) (xy 91.44 92.71)
+			(xy 104.14 119.38) (xy 107.95 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1451,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 99.06) (xy 68.58 99.06)
+			(xy 82.55 125.73) (xy 85.09 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1461,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 92.71) (xy 91.44 99.06)
+			(xy 107.95 119.38) (xy 107.95 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1471,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 99.06) (xy 104.14 99.06)
+			(xy 118.11 125.73) (xy 120.65 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1481,7 +1489,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 99.06) (xy 55.88 99.06)
+			(xy 69.85 125.73) (xy 72.39 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1491,7 +1499,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 55.88) (xy 68.58 55.88)
+			(xy 82.55 82.55) (xy 85.09 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1501,7 +1509,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 63.5) (xy 196.85 63.5)
+			(xy 199.39 90.17) (xy 213.36 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1511,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 55.88) (xy 63.5 55.88)
+			(xy 82.55 82.55) (xy 80.01 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1521,7 +1529,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 92.71) (xy 78.74 92.71)
+			(xy 91.44 119.38) (xy 95.25 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1531,7 +1539,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 49.53) (xy 116.84 55.88)
+			(xy 133.35 76.2) (xy 133.35 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1541,7 +1549,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 55.88) (xy 55.88 55.88)
+			(xy 69.85 82.55) (xy 72.39 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1551,7 +1559,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 63.5) (xy 182.88 66.04)
+			(xy 199.39 90.17) (xy 199.39 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1561,7 +1569,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 49.53) (xy 107.95 49.53)
+			(xy 120.65 76.2) (xy 124.46 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1571,7 +1579,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 55.88) (xy 88.9 55.88)
+			(xy 107.95 82.55) (xy 105.41 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1581,7 +1589,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 55.88) (xy 114.3 55.88)
+			(xy 133.35 82.55) (xy 130.81 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1591,7 +1599,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 93.98 99.06)
+			(xy 107.95 125.73) (xy 110.49 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1601,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 92.71) (xy 57.15 92.71)
+			(xy 69.85 119.38) (xy 73.66 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1611,7 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 76.2) (xy 186.69 76.2)
+			(xy 199.39 102.87) (xy 203.2 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1621,7 +1629,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 58.42) (xy 182.88 55.88)
+			(xy 199.39 85.09) (xy 199.39 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1631,7 +1639,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 55.88) (xy 81.28 55.88)
+			(xy 95.25 82.55) (xy 97.79 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1641,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 55.88) (xy 93.98 55.88)
+			(xy 107.95 82.55) (xy 110.49 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 49.53) (xy 66.04 49.53)
+			(xy 78.74 76.2) (xy 82.55 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1661,7 +1669,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 55.88) (xy 78.74 49.53)
+			(xy 95.25 82.55) (xy 95.25 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1671,7 +1679,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 49.53) (xy 66.04 55.88)
+			(xy 82.55 76.2) (xy 82.55 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1681,7 +1689,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 114.3 99.06)
+			(xy 133.35 125.73) (xy 130.81 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1691,7 +1699,7 @@
 	)
 	(global_label "D_VSOLAR1"
 		(shape output)
-		(at 121.92 49.53 0)
+		(at 138.43 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1701,7 +1709,7 @@
 		)
 		(uuid "04f8fddc-07e4-46c7-b682-1bcab1ff5df2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.3676 49.53 0)
+			(at 151.8776 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +1721,7 @@
 	)
 	(global_label "D_VSOLAR1"
 		(shape output)
-		(at 186.69 58.42 0)
+		(at 203.2 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1723,7 +1731,7 @@
 		)
 		(uuid "caddfd0c-f017-4c25-8198-ac2a70eecfbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.1376 58.42 0)
+			(at 216.6476 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +1743,7 @@
 	)
 	(global_label "D_VSOLAR2"
 		(shape output)
-		(at 186.69 76.2 0)
+		(at 203.2 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1745,7 +1753,7 @@
 		)
 		(uuid "f08c760c-5e12-4fad-97b5-0507d1d15cb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.1376 76.2 0)
+			(at 216.6476 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1765,7 @@
 	)
 	(global_label "D_VSOLAR2"
 		(shape output)
-		(at 121.92 92.71 0)
+		(at 138.43 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1767,7 +1775,7 @@
 		)
 		(uuid "fb0d96e1-4371-44e7-8dd4-c1f8b9c7dcdd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.3676 92.71 0)
+			(at 151.8776 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1787,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 83.82 99.06 270)
+		(at 100.33 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1787,7 +1795,7 @@
 		(dnp no)
 		(uuid "0398bae1-7ff9-4b40-beeb-029c7fb4af3c")
 		(property "Reference" "SC8"
-			(at 85.344 102.87 90)
+			(at 101.854 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,15 +1803,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF"
-			(at 85.598 104.902 90)
+			(at 102.108 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF"
-			(at 85.344 99.06 90)
+		(property "Footprint" "SolarPanels:SM141K06TF-S"
+			(at 101.854 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +1820,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.344 99.06 90)
+			(at 101.854 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +1829,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 83.82 99.06 0)
+			(at 100.33 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1854,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 72.39 92.71 180)
+		(at 88.9 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1854,7 +1862,7 @@
 		(dnp no)
 		(uuid "13f9c439-04ed-4c45-ba82-cc6c014bf135")
 		(property "Reference" "D7"
-			(at 72.39 87.376 0)
+			(at 88.9 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1870,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 72.39 89.662 0)
+			(at 88.9 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1878,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 72.39 92.71 90)
+			(at 88.9 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +1887,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 92.71 90)
+			(at 88.9 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1896,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 72.39 92.71 0)
+			(at 88.9 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +1921,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x10_MountingPin")
-		(at 177.8 66.04 0)
+		(at 194.31 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1922,7 +1930,7 @@
 		(dnp no)
 		(uuid "18c30001-b8d3-4791-ad1a-a969a51937c7")
 		(property "Reference" "J1"
-			(at 177.8 50.546 0)
+			(at 194.31 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +1938,7 @@
 			)
 		)
 		(property "Value" "200528-0100"
-			(at 177.8 52.578 0)
+			(at 194.31 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +1946,7 @@
 			)
 		)
 		(property "Footprint" "Connector_FFC-FPC:Molex_200528-0100_1x10-1MP_P1.00mm_Horizontal"
-			(at 177.8 66.04 0)
+			(at 194.31 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1955,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 66.04 0)
+			(at 194.31 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +1964,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 177.8 66.04 0)
+			(at 194.31 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,7 +2016,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 83.82 55.88 270)
+		(at 100.33 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2016,7 +2024,7 @@
 		(dnp no)
 		(uuid "19cc3608-39b4-48e0-acd1-2057d8661bd5")
 		(property "Reference" "SC3"
-			(at 85.344 59.69 90)
+			(at 101.854 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,15 +2032,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF"
-			(at 85.598 61.722 90)
+			(at 102.108 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF"
-			(at 85.344 55.88 90)
+		(property "Footprint" "SolarPanels:SM141K06TF-S"
+			(at 101.854 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2049,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.344 55.88 90)
+			(at 101.854 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2058,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 83.82 55.88 0)
+			(at 100.33 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +2083,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 71.12 99.06 270)
+		(at 87.63 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2083,7 +2091,7 @@
 		(dnp no)
 		(uuid "1add6ad3-a863-4683-b37c-20cdb4d9de5a")
 		(property "Reference" "SC7"
-			(at 72.644 102.87 90)
+			(at 89.154 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,15 +2099,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF"
-			(at 72.898 104.902 90)
+			(at 89.408 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF"
-			(at 72.644 99.06 90)
+		(property "Footprint" "SolarPanels:SM141K06TF-S"
+			(at 89.154 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2116,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.644 99.06 90)
+			(at 89.154 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2125,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 71.12 99.06 0)
+			(at 87.63 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2150,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 71.12 55.88 270)
+		(at 87.63 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2150,7 +2158,7 @@
 		(dnp no)
 		(uuid "2319097a-a216-403d-9a23-1316bdaf8542")
 		(property "Reference" "SC2"
-			(at 72.644 59.69 90)
+			(at 89.154 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2158,15 +2166,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF"
-			(at 72.898 61.722 90)
+			(at 89.408 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF"
-			(at 72.644 55.88 90)
+		(property "Footprint" "SolarPanels:SM141K06TF-S"
+			(at 89.154 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.644 55.88 90)
+			(at 89.154 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,7 +2192,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 71.12 55.88 0)
+			(at 87.63 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,7 +2217,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 97.79 92.71 180)
+		(at 114.3 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2217,7 +2225,7 @@
 		(dnp no)
 		(uuid "23575ac8-e80f-4b4e-a0d0-ff14659ff644")
 		(property "Reference" "D9"
-			(at 97.79 87.376 0)
+			(at 114.3 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +2233,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 97.79 89.662 0)
+			(at 114.3 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2241,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 97.79 92.71 90)
+			(at 114.3 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2250,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 92.71 90)
+			(at 114.3 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2259,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 97.79 92.71 0)
+			(at 114.3 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2284,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 63.5 90)
+		(at 213.36 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2284,7 +2292,7 @@
 		(dnp no)
 		(uuid "23dcf865-b5dc-4f94-b8a1-8122181345d9")
 		(property "Reference" "#PWR03"
-			(at 203.2 63.5 0)
+			(at 219.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,7 +2301,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 63.5 0)
+			(at 217.17 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 63.5 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,7 +2318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 63.5 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 63.5 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +2349,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 110.49 49.53 180)
+		(at 127 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2349,7 +2357,7 @@
 		(dnp no)
 		(uuid "255eeec1-01a2-41cb-bd40-cfba1c2233fb")
 		(property "Reference" "D5"
-			(at 110.49 44.196 0)
+			(at 127 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2365,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 110.49 46.482 0)
+			(at 127 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +2373,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 110.49 49.53 90)
+			(at 127 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2382,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 49.53 90)
+			(at 127 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +2391,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 110.49 49.53 0)
+			(at 127 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2416,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 96.52 99.06 270)
+		(at 113.03 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2416,7 +2424,7 @@
 		(dnp no)
 		(uuid "3af0075f-5a1e-4cec-aece-83da26af9812")
 		(property "Reference" "SC9"
-			(at 98.044 102.87 90)
+			(at 114.554 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,15 +2432,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF"
-			(at 98.298 104.902 90)
+			(at 114.808 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF"
-			(at 98.044 99.06 90)
+		(property "Footprint" "SolarPanels:SM141K06TF-S"
+			(at 114.554 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +2449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 98.044 99.06 90)
+			(at 114.554 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2458,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 96.52 99.06 0)
+			(at 113.03 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2483,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 59.69 49.53 180)
+		(at 76.2 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2483,7 +2491,7 @@
 		(dnp no)
 		(uuid "40524e6a-58bc-4874-b564-3cdf1587e5df")
 		(property "Reference" "D1"
-			(at 59.69 44.196 0)
+			(at 76.2 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +2499,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 59.69 46.482 0)
+			(at 76.2 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2507,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 59.69 49.53 90)
+			(at 76.2 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 49.53 90)
+			(at 76.2 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2525,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 59.69 49.53 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2550,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 85.09 92.71 180)
+		(at 101.6 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2550,7 +2558,7 @@
 		(dnp no)
 		(uuid "4f23dca1-1c80-43dd-b016-e81f965e49da")
 		(property "Reference" "D8"
-			(at 85.09 87.376 0)
+			(at 101.6 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,7 +2566,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 85.09 89.662 0)
+			(at 101.6 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +2574,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 85.09 92.71 90)
+			(at 101.6 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 92.71 90)
+			(at 101.6 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2592,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 85.09 92.71 0)
+			(at 101.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2617,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 58.42 99.06 270)
+		(at 74.93 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2617,7 +2625,7 @@
 		(dnp no)
 		(uuid "54823362-1759-41b5-9798-13e99b08e79a")
 		(property "Reference" "SC6"
-			(at 59.944 102.87 90)
+			(at 76.454 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,15 +2633,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF"
-			(at 60.198 104.902 90)
+			(at 76.708 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF"
-			(at 59.944 99.06 90)
+		(property "Footprint" "SolarPanels:SM141K06TF-S"
+			(at 76.454 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +2650,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.944 99.06 90)
+			(at 76.454 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +2659,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 58.42 99.06 0)
+			(at 74.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2684,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 105.41 0)
+		(at 69.85 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2684,7 +2692,7 @@
 		(dnp no)
 		(uuid "57710c6c-7ea4-4605-bc07-58fcca5cd64c")
 		(property "Reference" "#PWR04"
-			(at 53.34 111.76 0)
+			(at 69.85 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2701,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 109.22 0)
+			(at 69.85 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 105.41 0)
+			(at 69.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +2718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 105.41 0)
+			(at 69.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2727,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 105.41 0)
+			(at 69.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +2749,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 85.09 49.53 180)
+		(at 101.6 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2749,7 +2757,7 @@
 		(dnp no)
 		(uuid "6e296293-5377-459c-837c-933493265899")
 		(property "Reference" "D3"
-			(at 85.09 44.196 0)
+			(at 101.6 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +2765,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 85.09 46.482 0)
+			(at 101.6 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2773,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 85.09 49.53 90)
+			(at 101.6 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2782,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 49.53 90)
+			(at 101.6 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2791,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 85.09 49.53 0)
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +2816,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 83.82 0)
+		(at 194.31 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2816,7 +2824,7 @@
 		(dnp no)
 		(uuid "85453396-09a7-4d50-bb0b-fc181794e4d9")
 		(property "Reference" "#PWR02"
-			(at 177.8 90.17 0)
+			(at 194.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2833,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 87.63 0)
+			(at 194.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 83.82 0)
+			(at 194.31 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 83.82 0)
+			(at 194.31 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,7 +2859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 83.82 0)
+			(at 194.31 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +2881,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 62.23 0)
+		(at 69.85 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2881,7 +2889,7 @@
 		(dnp no)
 		(uuid "ba84e57a-bb60-49f7-9aed-37b212baba27")
 		(property "Reference" "#PWR01"
-			(at 53.34 68.58 0)
+			(at 69.85 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +2898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 66.04 0)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,7 +2906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 62.23 0)
+			(at 69.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +2915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 62.23 0)
+			(at 69.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +2924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 62.23 0)
+			(at 69.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,7 +2946,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 58.42 55.88 270)
+		(at 74.93 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2946,7 +2954,7 @@
 		(dnp no)
 		(uuid "c903284a-8667-45aa-b48b-6085b3c1ce45")
 		(property "Reference" "SC1"
-			(at 59.944 59.69 90)
+			(at 76.454 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,15 +2962,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF"
-			(at 60.198 61.722 90)
+			(at 76.708 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF"
-			(at 59.944 55.88 90)
+		(property "Footprint" "SolarPanels:SM141K06TF-S"
+			(at 76.454 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,7 +2979,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.944 55.88 90)
+			(at 76.454 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +2988,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 58.42 55.88 0)
+			(at 74.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,7 +3013,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 109.22 55.88 270)
+		(at 125.73 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3013,7 +3021,7 @@
 		(dnp no)
 		(uuid "cd330809-5100-4c6e-abe8-ac031e0a422e")
 		(property "Reference" "SC5"
-			(at 110.744 59.69 90)
+			(at 127.254 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,15 +3029,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF"
-			(at 110.998 61.722 90)
+			(at 127.508 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF"
-			(at 110.744 55.88 90)
+		(property "Footprint" "SolarPanels:SM141K06TF-S"
+			(at 127.254 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3046,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.744 55.88 90)
+			(at 127.254 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3055,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 109.22 55.88 0)
+			(at 125.73 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +3080,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 59.69 92.71 180)
+		(at 76.2 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3080,7 +3088,7 @@
 		(dnp no)
 		(uuid "d68b9769-212c-4b35-aac0-ead8873fc50d")
 		(property "Reference" "D6"
-			(at 59.69 87.376 0)
+			(at 76.2 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3096,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 59.69 89.662 0)
+			(at 76.2 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,7 +3104,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 59.69 92.71 90)
+			(at 76.2 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3105,7 +3113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 92.71 90)
+			(at 76.2 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +3122,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 59.69 92.71 0)
+			(at 76.2 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +3147,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 110.49 92.71 180)
+		(at 127 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3147,7 +3155,7 @@
 		(dnp no)
 		(uuid "db817bee-7a62-403a-81f9-687062ad2222")
 		(property "Reference" "D10"
-			(at 110.49 87.376 0)
+			(at 127 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,7 +3163,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 110.49 89.662 0)
+			(at 127 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +3171,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 110.49 92.71 90)
+			(at 127 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +3180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 92.71 90)
+			(at 127 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +3189,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 110.49 92.71 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3214,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 72.39 49.53 180)
+		(at 88.9 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3214,7 +3222,7 @@
 		(dnp no)
 		(uuid "e1e79de1-b713-40df-9488-1707680341e3")
 		(property "Reference" "D2"
-			(at 72.39 44.196 0)
+			(at 88.9 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3230,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 72.39 46.482 0)
+			(at 88.9 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,7 +3238,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 72.39 49.53 90)
+			(at 88.9 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3247,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 49.53 90)
+			(at 88.9 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3256,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 72.39 49.53 0)
+			(at 88.9 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +3281,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 97.79 49.53 180)
+		(at 114.3 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3281,7 +3289,7 @@
 		(dnp no)
 		(uuid "ed062f75-90e1-4fb2-9b06-8b88b347c676")
 		(property "Reference" "D4"
-			(at 97.79 44.196 0)
+			(at 114.3 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +3297,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 97.79 46.482 0)
+			(at 114.3 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +3305,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 97.79 49.53 90)
+			(at 114.3 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3314,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 49.53 90)
+			(at 114.3 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +3323,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 97.79 49.53 0)
+			(at 114.3 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3348,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 109.22 99.06 270)
+		(at 125.73 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3348,7 +3356,7 @@
 		(dnp no)
 		(uuid "f13362ba-3edb-4710-b61f-332eb5d5e11b")
 		(property "Reference" "SC10"
-			(at 110.744 102.87 90)
+			(at 127.254 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,15 +3364,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF"
-			(at 110.998 104.902 90)
+			(at 127.508 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF"
-			(at 110.744 99.06 90)
+		(property "Footprint" "SolarPanels:SM141K06TF-S"
+			(at 127.254 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.744 99.06 90)
+			(at 127.254 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +3390,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 109.22 99.06 0)
+			(at 125.73 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,7 +3415,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 96.52 55.88 270)
+		(at 113.03 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3415,7 +3423,7 @@
 		(dnp no)
 		(uuid "ff3a19ed-aece-4605-9f44-1c79d711fb9d")
 		(property "Reference" "SC4"
-			(at 98.044 59.69 90)
+			(at 114.554 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,15 +3431,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF"
-			(at 98.298 61.722 90)
+			(at 114.808 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF"
-			(at 98.044 55.88 90)
+		(property "Footprint" "SolarPanels:SM141K06TF-S"
+			(at 114.554 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3448,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 98.044 55.88 90)
+			(at 114.554 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3457,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 96.52 55.88 0)
+			(at 113.03 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
