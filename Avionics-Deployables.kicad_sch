@@ -1697,6 +1697,17 @@
 		)
 		(uuid "fcb07f19-5c54-430d-8ca9-c975cc381e8b")
 	)
+	(text "The AnySolar SM141K06TF and SM141K06TFS \nvariants are both usable\nthe SM141K06TFVx variants are NOT"
+		(exclude_from_sim no)
+		(at 80.01 102.616 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "66df33ae-6480-4928-ab86-9f5541922bce")
+	)
 	(global_label "D_VSOLAR1"
 		(shape output)
 		(at 138.43 76.2 0)
@@ -1802,11 +1813,11 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 102.108 131.572 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -2031,11 +2042,11 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 102.108 88.392 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -2098,11 +2109,11 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 89.408 131.572 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -2165,11 +2176,11 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 89.408 88.392 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -2431,11 +2442,11 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 114.808 131.572 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -2632,11 +2643,11 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 76.708 131.572 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -2961,11 +2972,11 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 76.708 88.392 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -3028,11 +3039,11 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 127.508 88.392 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -3363,11 +3374,11 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 127.508 131.572 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -3430,11 +3441,11 @@
 				)
 			)
 		)
-		(property "Value" "SM141K06TF"
+		(property "Value" "SM141K06TF/S"
 			(at 114.808 88.392 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)

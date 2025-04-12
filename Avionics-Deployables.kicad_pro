@@ -486,7 +486,7 @@
       "plot": "../../Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../Board Models/Avionics-Deployables.step",
+      "step": "Avionics-Deployables.step",
       "svg": "",
       "vrml": ""
     },
