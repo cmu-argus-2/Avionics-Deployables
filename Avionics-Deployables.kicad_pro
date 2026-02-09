@@ -459,6 +459,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -505,10 +506,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./Gerbers/-X",
+      "plot": "../Gerbers/Deployables/-Y/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Avionics-Deployables.step",
+      "step": "../../../../Desktop/Avionics-Deployables.step",
       "svg": "",
       "vrml": ""
     },

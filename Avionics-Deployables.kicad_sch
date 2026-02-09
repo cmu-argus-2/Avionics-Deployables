@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Argus Deployables")
-		(date "2025-06-19")
-		(rev "v2.3")
+		(date "2026-01-28")
+		(rev "v3.0")
 		(company "Carnegie Mellon University")
 		(comment 1 "N. Khera")
 		(comment 2 "V. Rajesh")
@@ -803,6 +803,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -907,7 +1014,7 @@
 	)
 	(text "The AnySolar SM141K06TF and SM141K06TFS \nvariants are both usable\nthe SM141K06TFVx variants are NOT"
 		(exclude_from_sim no)
-		(at 80.01 102.616 0)
+		(at 78.994 107.696 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -917,158 +1024,188 @@
 		(uuid "66df33ae-6480-4928-ab86-9f5541922bce")
 	)
 	(junction
-		(at 82.55 76.2)
+		(at 82.55 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1313dbe0-bcdf-4faa-a2a1-3857e5a54e7e")
 	)
 	(junction
-		(at 95.25 119.38)
+		(at 95.25 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15587c74-72ad-49a0-a53b-7816270b9cf4")
 	)
 	(junction
-		(at 107.95 82.55)
+		(at 107.95 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ed84c1e-c74b-4076-9370-8fb11c9b4d97")
 	)
 	(junction
-		(at 82.55 82.55)
+		(at 82.55 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c4614a6-4204-40da-9e2d-2651aac345f9")
 	)
 	(junction
-		(at 95.25 82.55)
+		(at 95.25 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "301fcf16-08f4-452b-86eb-a6c33baca101")
 	)
 	(junction
-		(at 199.39 95.25)
+		(at 180.34 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ded5fe2-1e76-4a9a-a0f1-56a87f02b044")
 	)
 	(junction
-		(at 199.39 102.87)
+		(at 180.34 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fe31309-d9d7-45a5-be7f-d4c8f1266b4b")
 	)
 	(junction
-		(at 69.85 82.55)
+		(at 69.85 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43bc0d31-e536-4370-afa2-9fdbef8e4797")
+	)
+	(junction
+		(at 69.85 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ab8baa8-bd2e-435b-aecc-de13af230134")
 	)
 	(junction
-		(at 133.35 119.38)
+		(at 133.35 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61d8465c-5cee-4d0d-ba0c-bff1976eced1")
 	)
 	(junction
-		(at 69.85 125.73)
+		(at 69.85 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "692c44a1-02c4-481c-bd37-f7dd9a15472b")
 	)
 	(junction
-		(at 82.55 119.38)
+		(at 82.55 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c7d3bf1-f3a7-4de3-96be-c722f7a4b099")
 	)
 	(junction
-		(at 199.39 90.17)
+		(at 180.34 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89803d0c-3610-4973-a526-1a7205f93048")
 	)
 	(junction
-		(at 95.25 76.2)
+		(at 95.25 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ad989e1-cb4a-40d1-aebc-33ee33625fb8")
 	)
 	(junction
-		(at 95.25 125.73)
+		(at 95.25 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ed79e34-a81b-4587-aa7a-79e7a5ee6479")
 	)
 	(junction
-		(at 120.65 76.2)
+		(at 120.65 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1e304ea-6147-4af3-9498-c798e14c28cd")
 	)
 	(junction
-		(at 199.39 85.09)
+		(at 180.34 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a89ef70c-4550-462c-8166-96c875b8401b")
 	)
 	(junction
-		(at 107.95 125.73)
+		(at 107.95 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9d9e4f7-540e-4eb8-a663-3a6dc146a76c")
 	)
 	(junction
-		(at 82.55 125.73)
+		(at 251.46 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c44f1dc8-4e06-4392-b9cc-df6d1804be3d")
+	)
+	(junction
+		(at 82.55 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5329de9-79b0-43f1-a0a8-4746b8277f6e")
 	)
 	(junction
-		(at 133.35 76.2)
+		(at 133.35 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d197a40c-17ed-4d63-bd6c-f3e670c952df")
 	)
 	(junction
-		(at 120.65 125.73)
+		(at 120.65 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d41c3555-6068-477f-bb4b-937bfb2bc3d1")
 	)
 	(junction
-		(at 199.39 92.71)
+		(at 180.34 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5a13800-2deb-4675-8275-381a932c4bbd")
 	)
 	(junction
-		(at 120.65 119.38)
+		(at 120.65 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8ad04a2-e470-407f-b93f-e7c2dc3f7a3f")
 	)
 	(junction
-		(at 107.95 76.2)
+		(at 107.95 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8cef250-4a58-4509-a5ba-f0b87a47896a")
 	)
 	(junction
-		(at 107.95 119.38)
+		(at 69.85 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6e68577-c759-4518-b275-07ab3943c2b7")
+	)
+	(junction
+		(at 251.46 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e72eb22f-338c-464f-bba4-9b95975e1137")
+	)
+	(junction
+		(at 107.95 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f615cf02-39ed-415b-a314-0de418249399")
 	)
 	(junction
-		(at 120.65 82.55)
+		(at 251.46 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8bc6b1c-0681-492e-a089-e643c7afbf30")
+	)
+	(junction
+		(at 120.65 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe4c73d7-0d4c-4eae-b9e1-590baf46df31")
 	)
 	(wire
 		(pts
-			(xy 82.55 76.2) (xy 86.36 76.2)
+			(xy 82.55 62.23) (xy 86.36 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1078,7 +1215,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 119.38) (xy 120.65 125.73)
+			(xy 251.46 101.6) (xy 251.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00db33bd-9ff3-4424-9c61-6f06cac6ec0d")
+	)
+	(wire
+		(pts
+			(xy 120.65 143.51) (xy 120.65 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1088,7 +1235,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 85.09) (xy 199.39 87.63)
+			(xy 133.35 137.16) (xy 133.35 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c59130-7019-45d4-9cf4-821e577fa949")
+	)
+	(wire
+		(pts
+			(xy 180.34 88.9) (xy 180.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1098,7 +1255,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 102.87) (xy 199.39 105.41)
+			(xy 180.34 106.68) (xy 180.34 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1108,7 +1265,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 120.65 82.55)
+			(xy 120.65 62.23) (xy 120.65 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +1275,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 119.38) (xy 133.35 125.73)
+			(xy 133.35 143.51) (xy 133.35 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1285,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 119.38) (xy 99.06 119.38)
+			(xy 95.25 143.51) (xy 99.06 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +1295,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 125.73) (xy 105.41 125.73)
+			(xy 107.95 137.16) (xy 107.95 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11801d6a-0078-46b9-8785-b304d3ad4c48")
+	)
+	(wire
+		(pts
+			(xy 107.95 149.86) (xy 105.41 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1148,7 +1315,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 125.73) (xy 95.25 119.38)
+			(xy 243.84 93.98) (xy 251.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1301a3aa-e108-4637-9813-9c9412646a73")
+	)
+	(wire
+		(pts
+			(xy 95.25 149.86) (xy 95.25 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 119.38) (xy 133.35 119.38)
+			(xy 129.54 143.51) (xy 133.35 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +1345,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 85.09) (xy 203.2 85.09)
+			(xy 180.34 88.9) (xy 184.15 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1178,7 +1355,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 92.71) (xy 199.39 95.25)
+			(xy 243.84 101.6) (xy 251.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2204024b-fb95-4fe8-bf75-34aeb6eb6cdb")
+	)
+	(wire
+		(pts
+			(xy 180.34 96.52) (xy 180.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1188,7 +1375,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 76.2) (xy 99.06 76.2)
+			(xy 95.25 62.23) (xy 99.06 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1198,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 119.38) (xy 138.43 119.38)
+			(xy 133.35 143.51) (xy 138.43 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1208,7 +1395,27 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 119.38) (xy 111.76 119.38)
+			(xy 82.55 57.15) (xy 82.55 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7e81db-a1c5-41eb-ac13-c2c52b744704")
+	)
+	(wire
+		(pts
+			(xy 82.55 149.86) (xy 82.55 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f08a5eb-94ae-4411-a058-1b818174dc75")
+	)
+	(wire
+		(pts
+			(xy 107.95 143.51) (xy 111.76 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1218,7 +1425,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 76.2) (xy 95.25 76.2)
+			(xy 91.44 62.23) (xy 95.25 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1228,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 125.73) (xy 97.79 125.73)
+			(xy 95.25 149.86) (xy 97.79 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1238,7 +1445,27 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 125.73) (xy 69.85 132.08)
+			(xy 95.25 57.15) (xy 95.25 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381353d9-8111-4228-b67f-38e980ad788d")
+	)
+	(wire
+		(pts
+			(xy 133.35 57.15) (xy 133.35 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398ae6d7-6ce6-478d-87a6-2345818d5e5f")
+	)
+	(wire
+		(pts
+			(xy 69.85 149.86) (xy 69.85 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 82.55) (xy 120.65 82.55)
+			(xy 118.11 68.58) (xy 120.65 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1258,7 +1485,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 107.95 82.55)
+			(xy 107.95 62.23) (xy 107.95 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1268,7 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 120.65 76.2)
+			(xy 116.84 62.23) (xy 120.65 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1278,7 +1505,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 76.2) (xy 138.43 76.2)
+			(xy 133.35 62.23) (xy 138.43 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1288,7 +1515,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 76.2) (xy 69.85 82.55)
+			(xy 69.85 62.23) (xy 69.85 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1298,7 +1525,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 125.73) (xy 80.01 125.73)
+			(xy 82.55 149.86) (xy 80.01 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1308,7 +1535,27 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 119.38) (xy 69.85 125.73)
+			(xy 243.84 109.22) (xy 251.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9e3d23-50ac-4343-868d-d69f75ed019a")
+	)
+	(wire
+		(pts
+			(xy 107.95 57.15) (xy 107.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9fdfe8-8921-4fe5-b2c0-519ac12ad407")
+	)
+	(wire
+		(pts
+			(xy 69.85 143.51) (xy 69.85 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1318,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 82.55) (xy 95.25 82.55)
+			(xy 92.71 68.58) (xy 95.25 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1575,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 76.2) (xy 133.35 76.2)
+			(xy 129.54 62.23) (xy 133.35 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1338,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 119.38) (xy 124.46 119.38)
+			(xy 120.65 143.51) (xy 124.46 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1348,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 119.38) (xy 86.36 119.38)
+			(xy 82.55 143.51) (xy 86.36 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1605,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 119.38) (xy 82.55 119.38)
+			(xy 78.74 143.51) (xy 82.55 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1368,7 +1615,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 125.73) (xy 95.25 125.73)
+			(xy 92.71 149.86) (xy 95.25 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1625,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 76.2) (xy 73.66 76.2)
+			(xy 69.85 62.23) (xy 73.66 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 82.55) (xy 69.85 88.9)
+			(xy 69.85 68.58) (xy 69.85 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +1645,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 111.76 76.2)
+			(xy 107.95 62.23) (xy 111.76 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1408,7 +1655,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 76.2) (xy 107.95 76.2)
+			(xy 104.14 62.23) (xy 107.95 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1418,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 95.25) (xy 199.39 97.79)
+			(xy 180.34 99.06) (xy 180.34 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1428,7 +1675,27 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 119.38) (xy 82.55 125.73)
+			(xy 251.46 93.98) (xy 251.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d41df8-dadd-48d8-b460-078a4bd7660a")
+	)
+	(wire
+		(pts
+			(xy 251.46 113.03) (xy 251.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83bf885a-6bc2-425e-91a7-03d6910ea10c")
+	)
+	(wire
+		(pts
+			(xy 82.55 143.51) (xy 82.55 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1438,7 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 119.38) (xy 120.65 119.38)
+			(xy 116.84 143.51) (xy 120.65 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1448,7 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 82.55) (xy 123.19 82.55)
+			(xy 120.65 68.58) (xy 123.19 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1458,7 +1725,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 102.87) (xy 199.39 100.33)
+			(xy 180.34 106.68) (xy 180.34 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1468,7 +1735,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 125.73) (xy 123.19 125.73)
+			(xy 69.85 137.16) (xy 69.85 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966c5324-5912-4f08-8b11-4796d8a7c5b3")
+	)
+	(wire
+		(pts
+			(xy 120.65 149.86) (xy 123.19 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1478,7 +1755,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 119.38) (xy 107.95 119.38)
+			(xy 104.14 143.51) (xy 107.95 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1488,7 +1765,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 125.73) (xy 85.09 125.73)
+			(xy 251.46 86.36) (xy 243.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fab34a-96aa-4e65-b8a6-b61eb01dadad")
+	)
+	(wire
+		(pts
+			(xy 82.55 149.86) (xy 85.09 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1498,7 +1785,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 119.38) (xy 107.95 125.73)
+			(xy 120.65 68.58) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84a8014-a6a3-4a97-b66a-514abf54a15d")
+	)
+	(wire
+		(pts
+			(xy 107.95 143.51) (xy 107.95 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +1805,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 125.73) (xy 120.65 125.73)
+			(xy 118.11 149.86) (xy 120.65 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1518,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 125.73) (xy 72.39 125.73)
+			(xy 69.85 149.86) (xy 72.39 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1528,7 +1825,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 82.55) (xy 85.09 82.55)
+			(xy 82.55 68.58) (xy 85.09 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1538,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 90.17) (xy 213.36 90.17)
+			(xy 180.34 93.98) (xy 194.31 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1548,7 +1845,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 82.55) (xy 80.01 82.55)
+			(xy 82.55 68.58) (xy 80.01 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1558,7 +1855,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 119.38) (xy 95.25 119.38)
+			(xy 120.65 149.86) (xy 120.65 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b7fc2a-9914-4823-99b5-cd4b1b0ea7f2")
+	)
+	(wire
+		(pts
+			(xy 91.44 143.51) (xy 95.25 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1568,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 76.2) (xy 133.35 82.55)
+			(xy 133.35 62.23) (xy 133.35 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1578,7 +1885,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 82.55) (xy 72.39 82.55)
+			(xy 69.85 68.58) (xy 72.39 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1588,7 +1895,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 90.17) (xy 199.39 92.71)
+			(xy 82.55 137.16) (xy 82.55 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65c850a-c5a1-4819-ab96-ecff8592d3dd")
+	)
+	(wire
+		(pts
+			(xy 180.34 93.98) (xy 180.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 124.46 76.2)
+			(xy 120.65 62.23) (xy 124.46 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1608,7 +1925,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 105.41 82.55)
+			(xy 107.95 68.58) (xy 105.41 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1618,7 +1935,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 82.55) (xy 130.81 82.55)
+			(xy 133.35 68.58) (xy 130.81 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1628,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 125.73) (xy 110.49 125.73)
+			(xy 107.95 149.86) (xy 110.49 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1955,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 119.38) (xy 73.66 119.38)
+			(xy 69.85 143.51) (xy 73.66 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1648,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 102.87) (xy 203.2 102.87)
+			(xy 180.34 106.68) (xy 184.15 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1658,7 +1975,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 85.09) (xy 199.39 82.55)
+			(xy 120.65 137.16) (xy 120.65 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc69dda-08e3-4343-a3ca-9691a66b1a31")
+	)
+	(wire
+		(pts
+			(xy 180.34 88.9) (xy 180.34 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1668,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 82.55) (xy 97.79 82.55)
+			(xy 95.25 68.58) (xy 97.79 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1678,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 110.49 82.55)
+			(xy 107.95 68.58) (xy 110.49 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1688,7 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 76.2) (xy 82.55 76.2)
+			(xy 78.74 62.23) (xy 82.55 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 82.55) (xy 95.25 76.2)
+			(xy 95.25 68.58) (xy 95.25 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1708,7 +2035,47 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 76.2) (xy 82.55 82.55)
+			(xy 82.55 68.58) (xy 82.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f442e93a-eab9-408a-9dc9-79b3916495ca")
+	)
+	(wire
+		(pts
+			(xy 251.46 109.22) (xy 251.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f44e93-b2c7-433e-8b15-ab8763771d1d")
+	)
+	(wire
+		(pts
+			(xy 120.65 57.15) (xy 120.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f85d8edd-c892-4f0e-8705-2e11def30965")
+	)
+	(wire
+		(pts
+			(xy 69.85 57.15) (xy 69.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8840dd-0848-4432-a455-eb7425fef41f")
+	)
+	(wire
+		(pts
+			(xy 82.55 62.23) (xy 82.55 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1718,7 +2085,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 125.73) (xy 130.81 125.73)
+			(xy 133.35 149.86) (xy 130.81 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1726,9 +2093,19 @@
 		)
 		(uuid "fcb07f19-5c54-430d-8ca9-c975cc381e8b")
 	)
+	(wire
+		(pts
+			(xy 95.25 137.16) (xy 95.25 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1e14ad-0e9b-4688-a9c9-bf983d717b2e")
+	)
 	(global_label "D_VSOLAR1"
 		(shape output)
-		(at 138.43 76.2 0)
+		(at 138.43 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1738,7 +2115,7 @@
 		)
 		(uuid "04f8fddc-07e4-46c7-b682-1bcab1ff5df2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.8776 76.2 0)
+			(at 151.8776 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +2127,7 @@
 	)
 	(global_label "D_VSOLAR1"
 		(shape output)
-		(at 203.2 85.09 0)
+		(at 184.15 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1760,7 +2137,7 @@
 		)
 		(uuid "caddfd0c-f017-4c25-8198-ac2a70eecfbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.6476 85.09 0)
+			(at 197.5976 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,7 +2149,7 @@
 	)
 	(global_label "D_VSOLAR2"
 		(shape output)
-		(at 203.2 102.87 0)
+		(at 184.15 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1782,7 +2159,7 @@
 		)
 		(uuid "f08c760c-5e12-4fad-97b5-0507d1d15cb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.6476 102.87 0)
+			(at 197.5976 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +2171,7 @@
 	)
 	(global_label "D_VSOLAR2"
 		(shape output)
-		(at 138.43 119.38 0)
+		(at 138.43 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1804,7 +2181,7 @@
 		)
 		(uuid "fb0d96e1-4371-44e7-8dd4-c1f8b9c7dcdd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.8776 119.38 0)
+			(at 151.8776 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +2193,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 100.33 125.73 270)
+		(at 100.33 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1824,7 +2201,7 @@
 		(dnp no)
 		(uuid "0398bae1-7ff9-4b40-beeb-029c7fb4af3c")
 		(property "Reference" "SC8"
-			(at 101.854 129.54 90)
+			(at 101.854 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,15 +2209,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF/S"
-			(at 102.108 131.572 90)
+			(at 102.108 155.702 90)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF-S"
-			(at 101.854 125.73 90)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 101.854 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +2226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.854 125.73 90)
+			(at 101.854 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +2235,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 100.33 125.73 0)
+			(at 100.33 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,32 +2259,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 88.9 119.38 180)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 120.65 158.75 0)
+		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "13f9c439-04ed-4c45-ba82-cc6c014bf135")
-		(property "Reference" "D7"
-			(at 88.9 114.046 0)
+		(uuid "0e66dd04-2f78-4923-8971-7af8e353c3bf")
+		(property "Reference" "H16"
+			(at 121.92 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "DFLS130L-7"
-			(at 88.9 116.332 0)
+		(property "Value" "MountingHole_Pad"
+			(at 119.38 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 88.9 119.38 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 120.65 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +2296,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 119.38 90)
+			(at 120.65 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 120.65 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ecd9283-f9d0-404b-b916-270b000f70cf")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 88.9 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13f9c439-04ed-4c45-ba82-cc6c014bf135")
+		(property "Reference" "D7"
+			(at 88.9 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFLS130LQ-7"
+			(at 88.9 140.716 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 88.9 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +2369,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 88.9 119.38 0)
+			(at 88.9 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +2394,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x10_MountingPin")
-		(at 194.31 92.71 0)
+		(at 175.26 96.52 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1959,7 +2403,7 @@
 		(dnp no)
 		(uuid "18c30001-b8d3-4791-ad1a-a969a51937c7")
 		(property "Reference" "J1"
-			(at 194.31 77.216 0)
+			(at 175.26 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +2411,7 @@
 			)
 		)
 		(property "Value" "200528-0100"
-			(at 194.31 79.248 0)
+			(at 175.26 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +2419,7 @@
 			)
 		)
 		(property "Footprint" "Connector_FFC-FPC:Molex_200528-0100_1x10-1MP_P1.00mm_Horizontal"
-			(at 194.31 92.71 0)
+			(at 175.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +2428,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 92.71 0)
+			(at 175.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +2437,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 194.31 92.71 0)
+			(at 175.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +2489,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 100.33 82.55 270)
+		(at 100.33 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2053,7 +2497,7 @@
 		(dnp no)
 		(uuid "19cc3608-39b4-48e0-acd1-2057d8661bd5")
 		(property "Reference" "SC3"
-			(at 101.854 86.36 90)
+			(at 101.854 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,15 +2505,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF/S"
-			(at 102.108 88.392 90)
+			(at 102.108 74.422 90)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF-S"
-			(at 101.854 82.55 90)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 101.854 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,7 +2522,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.854 82.55 90)
+			(at 101.854 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2531,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 100.33 82.55 0)
+			(at 100.33 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2556,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 87.63 125.73 270)
+		(at 87.63 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2120,7 +2564,7 @@
 		(dnp no)
 		(uuid "1add6ad3-a863-4683-b37c-20cdb4d9de5a")
 		(property "Reference" "SC7"
-			(at 89.154 129.54 90)
+			(at 89.154 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,15 +2572,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF/S"
-			(at 89.408 131.572 90)
+			(at 89.408 155.702 90)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF-S"
-			(at 89.154 125.73 90)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 89.154 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2589,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 89.154 125.73 90)
+			(at 89.154 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2598,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 87.63 125.73 0)
+			(at 87.63 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,32 +2622,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Solar_Cell")
-		(at 87.63 82.55 270)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 82.55 158.75 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "2319097a-a216-403d-9a23-1316bdaf8542")
-		(property "Reference" "SC2"
-			(at 89.154 86.36 90)
+		(uuid "1dc156b3-60f3-4e4f-823b-c8701451fc57")
+		(property "Reference" "H15"
+			(at 83.8201 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SM141K06TF/S"
-			(at 89.408 88.392 90)
+		(property "Value" "MountingHole_Pad"
+			(at 81.2801 162.56 90)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF-S"
-			(at 89.154 82.55 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 82.55 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2658,203 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 89.154 82.55 90)
+			(at 82.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 82.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d96d8d61-b6ec-401f-b5ca-5e56bae362c0")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 241.3 86.36 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e3fa1e7-7fba-4c0b-acf5-6fce621cd63d")
+		(property "Reference" "H17"
+			(at 237.49 87.6301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 237.49 85.0901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 241.3 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 241.3 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d53ab072-0cea-420d-a4ca-6f6b92243a74")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 241.3 93.98 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "22cf900b-e638-45de-89cf-e92eb5d00a0d")
+		(property "Reference" "H19"
+			(at 237.49 95.2501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 237.49 92.7101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 241.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 241.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aad49952-de78-42b0-9bc8-fa1e5f5136de")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 87.63 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2319097a-a216-403d-9a23-1316bdaf8542")
+		(property "Reference" "SC2"
+			(at 89.154 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM141K06TF/S"
+			(at 89.408 74.422 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 89.154 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.154 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2863,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 87.63 82.55 0)
+			(at 87.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2888,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 114.3 119.38 180)
+		(at 114.3 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2254,23 +2896,23 @@
 		(dnp no)
 		(uuid "23575ac8-e80f-4b4e-a0d0-ff14659ff644")
 		(property "Reference" "D9"
-			(at 114.3 114.046 0)
+			(at 114.3 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DFLS130L-7"
-			(at 114.3 116.332 0)
+		(property "Value" "DFLS130LQ-7"
+			(at 114.3 140.716 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 114.3 119.38 90)
+			(at 114.3 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 119.38 90)
+			(at 114.3 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +2930,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 114.3 119.38 0)
+			(at 114.3 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +2955,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 90.17 90)
+		(at 194.31 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2321,7 +2963,7 @@
 		(dnp no)
 		(uuid "23dcf865-b5dc-4f94-b8a1-8122181345d9")
 		(property "Reference" "#PWR03"
-			(at 219.71 90.17 0)
+			(at 200.66 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2330,7 +2972,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 90.17 0)
+			(at 198.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +2980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 90.17 0)
+			(at 194.31 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 90.17 0)
+			(at 194.31 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2998,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 90.17 0)
+			(at 194.31 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +3020,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 127 76.2 180)
+		(at 127 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2386,23 +3028,23 @@
 		(dnp no)
 		(uuid "255eeec1-01a2-41cb-bd40-cfba1c2233fb")
 		(property "Reference" "D5"
-			(at 127 70.866 0)
+			(at 127 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DFLS130L-7"
-			(at 127 73.152 0)
+		(property "Value" "DFLS130LQ-7"
+			(at 127 59.436 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 127 76.2 90)
+			(at 127 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +3053,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 76.2 90)
+			(at 127 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +3062,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 127 76.2 0)
+			(at 127 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,32 +3086,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Solar_Cell")
-		(at 113.03 125.73 270)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 241.3 101.6 90)
+		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "3af0075f-5a1e-4cec-aece-83da26af9812")
-		(property "Reference" "SC9"
-			(at 114.554 129.54 90)
+		(uuid "2a916907-41a4-4168-ab77-1164414ba733")
+		(property "Reference" "H18"
+			(at 237.49 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SM141K06TF/S"
-			(at 114.808 131.572 90)
+		(property "Value" "MountingHole_Pad"
+			(at 237.49 100.33 90)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF-S"
-			(at 114.554 125.73 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 241.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,7 +3123,138 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.554 125.73 90)
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6c04af4-28cd-4c5e-a629-31896566dd5c")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 133.35 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "380f221c-8c9c-479e-8e5c-007a14e5fc5d")
+		(property "Reference" "H8"
+			(at 134.6201 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 132.0801 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 133.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 133.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afdc4475-d646-460c-89ae-c4a1d99508e5")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 113.03 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3af0075f-5a1e-4cec-aece-83da26af9812")
+		(property "Reference" "SC9"
+			(at 114.554 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM141K06TF/S"
+			(at 114.808 155.702 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 114.554 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.554 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,7 +3263,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 113.03 125.73 0)
+			(at 113.03 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,32 +3287,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 76.2 76.2 180)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 82.55 134.62 0)
+		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "40524e6a-58bc-4874-b564-3cdf1587e5df")
-		(property "Reference" "D1"
-			(at 76.2 70.866 0)
+		(uuid "3eb54123-1e62-45e7-a5ba-9f7a35d6c2a2")
+		(property "Reference" "H10"
+			(at 83.8201 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "DFLS130L-7"
-			(at 76.2 73.152 0)
+		(property "Value" "MountingHole_Pad"
+			(at 81.2801 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 76.2 76.2 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +3324,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 76.2 90)
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c01e576c-7cb0-4167-863f-fe5f6c8c5dd2")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 76.2 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40524e6a-58bc-4874-b564-3cdf1587e5df")
+		(property "Reference" "D1"
+			(at 76.2 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFLS130LQ-7"
+			(at 76.2 59.436 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 76.2 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +3397,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 76.2 76.2 0)
+			(at 76.2 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +3422,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 101.6 119.38 180)
+		(at 101.6 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2587,23 +3430,23 @@
 		(dnp no)
 		(uuid "4f23dca1-1c80-43dd-b016-e81f965e49da")
 		(property "Reference" "D8"
-			(at 101.6 114.046 0)
+			(at 101.6 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DFLS130L-7"
-			(at 101.6 116.332 0)
+		(property "Value" "DFLS130LQ-7"
+			(at 101.6 140.716 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 101.6 119.38 90)
+			(at 101.6 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +3455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 119.38 90)
+			(at 101.6 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +3464,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 101.6 119.38 0)
+			(at 101.6 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +3489,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cell")
-		(at 74.93 125.73 270)
+		(at 74.93 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2654,7 +3497,7 @@
 		(dnp no)
 		(uuid "54823362-1759-41b5-9798-13e99b08e79a")
 		(property "Reference" "SC6"
-			(at 76.454 129.54 90)
+			(at 76.454 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,15 +3505,15 @@
 			)
 		)
 		(property "Value" "SM141K06TF/S"
-			(at 76.708 131.572 90)
+			(at 76.708 155.702 90)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF-S"
-			(at 76.454 125.73 90)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 76.454 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +3522,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.454 125.73 90)
+			(at 76.454 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +3531,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 74.93 125.73 0)
+			(at 74.93 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +3556,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 132.08 0)
+		(at 69.85 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2721,7 +3564,7 @@
 		(dnp no)
 		(uuid "57710c6c-7ea4-4605-bc07-58fcca5cd64c")
 		(property "Reference" "#PWR04"
-			(at 69.85 138.43 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +3573,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 135.89 0)
+			(at 69.85 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +3581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 132.08 0)
+			(at 69.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +3590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 132.08 0)
+			(at 69.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +3599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 132.08 0)
+			(at 69.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +3621,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 101.6 76.2 180)
+		(at 101.6 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2786,23 +3629,23 @@
 		(dnp no)
 		(uuid "6e296293-5377-459c-837c-933493265899")
 		(property "Reference" "D3"
-			(at 101.6 70.866 0)
+			(at 101.6 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DFLS130L-7"
-			(at 101.6 73.152 0)
+		(property "Value" "DFLS130LQ-7"
+			(at 101.6 59.436 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 101.6 76.2 90)
+			(at 101.6 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +3654,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 76.2 90)
+			(at 101.6 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +3663,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 101.6 76.2 0)
+			(at 101.6 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,8 +3687,209 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 120.65 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "74b3eedd-de01-4ce3-a3e3-cae287904c8f")
+		(property "Reference" "H7"
+			(at 121.9201 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 119.3801 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7239f60d-9012-423c-81ac-e14be79a02d6")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 69.85 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "78213ac0-19f0-4a5c-92ec-27bf1ed0ed7f")
+		(property "Reference" "H3"
+			(at 71.1201 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 68.5801 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2ff7eec-df76-4665-9ddb-0b10615b81c2")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 120.65 134.62 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c234051-124d-4d72-af55-a547692ff4cf")
+		(property "Reference" "H13"
+			(at 121.9201 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 119.3801 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 120.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 120.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50834eac-d865-4b4b-876b-054bd9624186")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 194.31 110.49 0)
+		(at 175.26 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2853,7 +3897,7 @@
 		(dnp no)
 		(uuid "85453396-09a7-4d50-bb0b-fc181794e4d9")
 		(property "Reference" "#PWR02"
-			(at 194.31 116.84 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +3906,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 114.3 0)
+			(at 175.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,7 +3914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 110.49 0)
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +3923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 110.49 0)
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +3932,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 110.49 0)
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,15 +3954,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 88.9 0)
+		(at 251.46 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ba84e57a-bb60-49f7-9aed-37b212baba27")
-		(property "Reference" "#PWR01"
-			(at 69.85 95.25 0)
+		(uuid "93a3a1f4-1dc0-499d-957f-1a39c266962b")
+		(property "Reference" "#PWR05"
+			(at 251.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +3971,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 92.71 0)
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +3979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 88.9 0)
+			(at 251.46 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +3988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 88.9 0)
+			(at 251.46 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +3997,206 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 88.9 0)
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65cf8625-e9c3-4945-b151-e5e6d9833e88")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 241.3 109.22 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a91a4caf-8f91-4574-9cf1-173a1ff93235")
+		(property "Reference" "H20"
+			(at 237.49 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 237.49 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 241.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 241.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edac5dec-9fce-4559-82b0-8cf81a5c6513")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 107.95 134.62 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2537fce-2f22-47c5-b099-5d5c421bad4b")
+		(property "Reference" "H12"
+			(at 109.2201 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 106.6801 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 107.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 107.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfba8d00-4ebb-495f-9860-7f25c6d3c2da")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba84e57a-bb60-49f7-9aed-37b212baba27")
+		(property "Reference" "#PWR01"
+			(at 69.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,32 +4217,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Solar_Cell")
-		(at 74.93 82.55 270)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 82.55 78.74 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "c903284a-8667-45aa-b48b-6085b3c1ce45")
-		(property "Reference" "SC1"
-			(at 76.454 86.36 90)
+		(uuid "bcd037e2-5a7f-466e-83ee-a2e19c8c5ff0")
+		(property "Reference" "H1"
+			(at 83.8201 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SM141K06TF/S"
-			(at 76.708 88.392 90)
+		(property "Value" "MountingHole_Pad"
+			(at 81.2801 82.55 90)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF-S"
-			(at 76.454 82.55 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 82.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +4253,138 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.454 82.55 90)
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90f7e19e-4d27-4b52-b050-94456b32de5a")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 107.95 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8dab1ad-000e-4345-8e3a-d0b3e6cd9776")
+		(property "Reference" "H6"
+			(at 109.2201 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 106.6801 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 107.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 107.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f1304c7-efc0-4537-817c-302d72ce8d5b")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 74.93 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c903284a-8667-45aa-b48b-6085b3c1ce45")
+		(property "Reference" "SC1"
+			(at 76.454 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM141K06TF/S"
+			(at 76.708 74.422 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 76.454 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.454 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +4393,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 74.93 82.55 0)
+			(at 74.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,32 +4417,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Solar_Cell")
-		(at 125.73 82.55 270)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 95.25 134.62 0)
+		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "cd330809-5100-4c6e-abe8-ac031e0a422e")
-		(property "Reference" "SC5"
-			(at 127.254 86.36 90)
+		(uuid "cd1ca6d4-a165-406b-bed8-d7e0e9a33118")
+		(property "Reference" "H11"
+			(at 96.5201 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SM141K06TF/S"
-			(at 127.508 88.392 90)
+		(property "Value" "MountingHole_Pad"
+			(at 93.9801 130.81 90)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF-S"
-			(at 127.254 82.55 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 95.25 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +4454,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127.254 82.55 90)
+			(at 95.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 95.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99ca66d0-9920-4603-ab88-bb45182c6774")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 125.73 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd330809-5100-4c6e-abe8-ac031e0a422e")
+		(property "Reference" "SC5"
+			(at 127.254 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM141K06TF/S"
+			(at 127.508 74.422 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 127.254 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.254 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +4527,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 125.73 82.55 0)
+			(at 125.73 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,32 +4551,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 76.2 119.38 180)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 120.65 78.74 0)
+		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "d68b9769-212c-4b35-aac0-ead8873fc50d")
-		(property "Reference" "D6"
-			(at 76.2 114.046 0)
+		(uuid "d01696a4-6e44-45a2-a326-67b4c0f9d882")
+		(property "Reference" "H2"
+			(at 121.92 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "DFLS130L-7"
-			(at 76.2 116.332 0)
+		(property "Value" "MountingHole_Pad"
+			(at 119.38 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 76.2 119.38 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +4588,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 119.38 90)
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88d5ef12-2ec3-4d39-9a05-48ebd181ca64")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 76.2 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d68b9769-212c-4b35-aac0-ead8873fc50d")
+		(property "Reference" "D6"
+			(at 76.2 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFLS130LQ-7"
+			(at 76.2 140.716 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 76.2 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +4661,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 76.2 119.38 0)
+			(at 76.2 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,32 +4685,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 127 119.38 180)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 69.85 134.62 0)
+		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "db817bee-7a62-403a-81f9-687062ad2222")
-		(property "Reference" "D10"
-			(at 127 114.046 0)
+		(uuid "d868c2ac-f6a8-4fe7-b016-9dcb99e777a9")
+		(property "Reference" "H9"
+			(at 71.1201 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "DFLS130L-7"
-			(at 127 116.332 0)
+		(property "Value" "MountingHole_Pad"
+			(at 68.5801 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 127 119.38 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 69.85 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +4722,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 119.38 90)
+			(at 69.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 69.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8568465e-59eb-4844-935e-2a30dcc52520")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 127 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db817bee-7a62-403a-81f9-687062ad2222")
+		(property "Reference" "D10"
+			(at 127 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFLS130LQ-7"
+			(at 127 140.716 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 127 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +4795,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 127 119.38 0)
+			(at 127 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,7 +4820,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 88.9 76.2 180)
+		(at 88.9 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3251,23 +4828,23 @@
 		(dnp no)
 		(uuid "e1e79de1-b713-40df-9488-1707680341e3")
 		(property "Reference" "D2"
-			(at 88.9 70.866 0)
+			(at 88.9 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DFLS130L-7"
-			(at 88.9 73.152 0)
+		(property "Value" "DFLS130LQ-7"
+			(at 88.9 59.436 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 88.9 76.2 90)
+			(at 88.9 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +4853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 76.2 90)
+			(at 88.9 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +4862,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 88.9 76.2 0)
+			(at 88.9 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,32 +4886,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 114.3 76.2 180)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 95.25 54.61 0)
+		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "ed062f75-90e1-4fb2-9b06-8b88b347c676")
-		(property "Reference" "D4"
-			(at 114.3 70.866 0)
+		(uuid "e316911c-5d7b-45f2-975e-223c3b1eb997")
+		(property "Reference" "H5"
+			(at 96.5201 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "DFLS130L-7"
-			(at 114.3 73.152 0)
+		(property "Value" "MountingHole_Pad"
+			(at 93.9801 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 114.3 76.2 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 95.25 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +4923,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 76.2 90)
+			(at 95.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 95.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bc6b300-2dec-4c3f-bb05-df8f471fcc32")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 114.3 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed062f75-90e1-4fb2-9b06-8b88b347c676")
+		(property "Reference" "D4"
+			(at 114.3 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFLS130LQ-7"
+			(at 114.3 59.436 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 114.3 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +4996,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 114.3 76.2 0)
+			(at 114.3 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,32 +5020,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Solar_Cell")
-		(at 125.73 125.73 270)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 133.35 134.62 0)
+		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "f13362ba-3edb-4710-b61f-332eb5d5e11b")
-		(property "Reference" "SC10"
-			(at 127.254 129.54 90)
+		(uuid "edabfc56-19b6-4d20-8c8f-e35314c5e743")
+		(property "Reference" "H14"
+			(at 134.6201 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SM141K06TF/S"
-			(at 127.508 131.572 90)
+		(property "Value" "MountingHole_Pad"
+			(at 132.0801 130.81 90)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF-S"
-			(at 127.254 125.73 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 133.35 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3410,7 +5057,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127.254 125.73 90)
+			(at 133.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 133.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5325da7-f92e-4519-b0ab-bd6c01e2058c")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 125.73 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f13362ba-3edb-4710-b61f-332eb5d5e11b")
+		(property "Reference" "SC10"
+			(at 127.254 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM141K06TF/S"
+			(at 127.508 155.702 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 127.254 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.254 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3419,7 +5130,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 125.73 125.73 0)
+			(at 125.73 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,32 +5154,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Solar_Cell")
-		(at 113.03 82.55 270)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 82.55 54.61 0)
+		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "ff3a19ed-aece-4605-9f44-1c79d711fb9d")
-		(property "Reference" "SC4"
-			(at 114.554 86.36 90)
+		(uuid "fe43c981-5c1b-4bb4-9651-eacd75e7a8c6")
+		(property "Reference" "H4"
+			(at 83.8201 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SM141K06TF/S"
-			(at 114.808 88.392 90)
+		(property "Value" "MountingHole_Pad"
+			(at 81.2801 50.8 90)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SolarPanels:SM141K06TF-S"
-			(at 114.554 82.55 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 82.55 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +5191,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.554 82.55 90)
+			(at 82.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 82.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "400c16a1-483d-407b-bbf4-09908e4cc77b")
+		)
+		(instances
+			(project "Avionics-Deployables"
+				(path "/76a3647e-7431-446d-b90b-ef6db1f038f8"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 113.03 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff3a19ed-aece-4605-9f44-1c79d711fb9d")
+		(property "Reference" "SC4"
+			(at 114.554 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM141K06TF/S"
+			(at 114.808 74.422 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 114.554 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.554 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +5264,7 @@
 			)
 		)
 		(property "Description" "Single solar cell"
-			(at 113.03 82.55 0)
+			(at 113.03 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
